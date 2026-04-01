@@ -5,16 +5,18 @@ def pythagorean_theorem(a, b):
     hypotenuse = math.sqrt(result)
     return hypotenuse
 
-def area_of_square(a, b):
-    """Calculate the area of a square.
+def area_of_rectangle(a, b):
+    """Calculate the area of a rectangle.
     
     Args:
-        a: Length of one side of the square
-        b: Length of the other side of the square
+        a: Length of one side of the rectangle
+        b: Length of the other side of the rectangle
         
     Returns:
-        The area of the square
+        The area of the rectangle
     """
     area = a * b
     return area
+  
+  
 
